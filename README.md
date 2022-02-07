@@ -11,7 +11,7 @@
 <p><code>a2enmod rewrite</code><p>
 <p>5. Edit file konfigurasi Apache.</p>
 <p><code>nano /etc/apache2/apache2.conf</code><p>
-<p>6. Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file konfigurasi apache.</p>
+<p>Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file inisiatif.</p>
 <p>7. Buat kunci pribadi dan sertifikat situs web menggunakan perintah OpenSSL.</p>
 <p><code>mkdir /etc/apache2/certificate</code></p>
 <p><code>cd /etc/apache2/certificate</code><p>
