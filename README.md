@@ -16,3 +16,6 @@
 <p><code>mkdir /etc/apache2/certificate</code></p>
 <p><code>cd /etc/apache2/certificate</code><p>
 <p><code>openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key</code></p>
+<p>Masukkan informasi yang diminta.</p>
+<p>Pada opsi bernama COMMON_NAME, Anda harus memasukkan alamat IP atau nama host.</p>
+<p>8. Edit file konfigurasi Apache untuk situs web default.</p>
