@@ -8,3 +8,5 @@
 <p><code>a2enmod ssl</code></p>
 <p>Aktifkan modul Apache bernama: Mod_rewrite.</p>
 <p><code>a2enmod rewrite</code><p>
+<p>Edit file konfigurasi Apache.</p>
+<p><code>nano /etc/apache2/apache2.conf</code><p>
