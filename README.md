@@ -12,6 +12,7 @@
 <p>5. Edit file konfigurasi Apache.</p>
 <p><code>nano /etc/apache2/apache2.conf</code><p>
 <p>Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file ini.</p>
+<img src="https://github.com/rofisikunyuk/HTTPS/blob/main/Screenshot/file%20konfigurasi%20apache.png" width="250" height="150">
 <p>6. Buat kunci pribadi dan sertifikat situs web menggunakan perintah OpenSSL.</p>
 <p><code>mkdir /etc/apache2/certificate</code></p>
 <p><code>cd /etc/apache2/certificate</code><p>
