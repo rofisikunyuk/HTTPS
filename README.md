@@ -19,3 +19,4 @@
 <p>Masukkan informasi yang diminta.</p>
 <p>Pada opsi bernama COMMON_NAME, Anda harus memasukkan alamat IP atau nama host.</p>
 <p>8. Edit file konfigurasi Apache untuk situs web default.</p>
+<p><code>nano /etc/apache2/sites-enabled/000-default.conf</code></p>
