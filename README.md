@@ -21,3 +21,5 @@
 <p>8. Edit file konfigurasi Apache untuk situs web default.</p>
 <p><code>nano /etc/apache2/sites-enabled/000-default.conf</code></p>
 <p>Secara opsional, Anda mungkin ingin mengarahkan pengguna HTTP ke versi HTTPS situs web Anda. Dalam hal ini, gunakan konfigurasi <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/HTTP%20to%20HTTPS">berikut</a>.</p>
+<p>9. Mulai ulang layanan Apache.</p>
+<p><code>systemctl restart apache2</code></p>
