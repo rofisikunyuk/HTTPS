@@ -27,4 +27,4 @@
 <p><code>systemctl restart apache2</code></p>
 <p>9. Buka browser Anda dan akses versi HTTPS situs web Anda.</p>
 <img src="https://github.com/rofisikunyuk/HTTPS/blob/main/Screenshot/client.png" width="250" height="150"><hr>
-<p>"Kalau gambarnya kurang jelas di zoom aja"</p>
+<p>" Kalau gambarnya kurang jelas di zoom aja "</p>
