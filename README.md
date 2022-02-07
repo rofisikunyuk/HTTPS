@@ -10,4 +10,4 @@
 <p><code>a2enmod rewrite</code><p>
 <p>Edit file konfigurasi Apache.</p>
 <p><code>nano /etc/apache2/apache2.conf</code><p>
-<p>Tambahkan baris berikut di akhir file ini.</p>
+<p>Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file ini.</p>
