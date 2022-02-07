@@ -11,16 +11,16 @@
 <p><code>a2enmod rewrite</code><p>
 <p>5. Edit file konfigurasi Apache.</p>
 <p><code>nano /etc/apache2/apache2.conf</code><p>
-<p>Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file inisiatif.</p>
-<p>7. Buat kunci pribadi dan sertifikat situs web menggunakan perintah OpenSSL.</p>
+<p>Tambahkan baris <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/File%20konfigurasi%20apache.txt">berikut</a> di akhir file ini.</p>
+<p>6. Buat kunci pribadi dan sertifikat situs web menggunakan perintah OpenSSL.</p>
 <p><code>mkdir /etc/apache2/certificate</code></p>
 <p><code>cd /etc/apache2/certificate</code><p>
 <p><code>openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out apache-certificate.crt -keyout apache.key</code></p>
 <p>Masukkan informasi yang diminta.</p>
 <p>Pada opsi bernama COMMON_NAME, Anda harus memasukkan alamat IP atau nama host.</p>
-<p>8. Edit file konfigurasi Apache untuk situs web default.</p>
+<p>7. Edit file konfigurasi Apache untuk situs web default.</p>
 <p><code>nano /etc/apache2/sites-enabled/000-default.conf</code></p>
 <p>Secara opsional, Anda mungkin ingin mengarahkan pengguna HTTP ke versi HTTPS situs web Anda. Dalam hal ini, gunakan konfigurasi <a href="https://github.com/rofisikunyuk/HTTPS/blob/main/HTTP%20to%20HTTPS">berikut</a>.</p>
-<p>9. Mulai ulang layanan Apache.</p>
+<p>8. Mulai ulang layanan Apache.</p>
 <p><code>systemctl restart apache2</code></p>
-<p>10. Buka browser Anda dan akses versi HTTPS situs web Anda.</p>
+<p>9. Buka browser Anda dan akses versi HTTPS situs web Anda.</p>
