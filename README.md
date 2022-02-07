@@ -4,3 +4,7 @@
 <p><code>apt-get update</code>
 <p>Instal server Apache dan paket yang diperlukan.</p>
 <p><code>apt-get install apache2 openssl</code></p>
+<p>Aktifkan modul Apache bernama: Mod_ssl.</p>
+<p><code>a2enmod ssl</code></p>
+<p>Aktifkan modul Apache bernama: Mod_rewrite.</p>
+<p><code>a2enmod rewrite</code><p>
