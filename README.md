@@ -25,6 +25,6 @@
 <img src="https://github.com/rofisikunyuk/HTTPS/blob/main/Screenshot/http%20to%20https.png" width="250" height="150">
 <p>8. Mulai ulang layanan Apache.</p>
 <p><code>systemctl restart apache2</code></p>
-<p>9. Buka browser Anda dan akses versi HTTPS situs web Anda.</p>
+<p>9. Buka browser anda ketikan https://ip-nama host anda.</p>
 <img src="https://github.com/rofisikunyuk/HTTPS/blob/main/Screenshot/client.png" width="250" height="150"><hr>
 <p>"Kalau gambarnya kurang jelas di zoom aja ya broo"</p>
