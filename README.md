@@ -2,7 +2,7 @@
 <p>Hypertext Transfer Protocol Secure (HTTPS) adalah ekstensi dari Hypertext Transfer Protocol. Ini digunakan untuk komunikasi aman melalui jaringan komputer, dan banyak digunakan di Internet. Dalam HTTPS, protokol komunikasi dienkripsi menggunakan Transport Layer Security atau, sebelumnya, Secure Sockets Layer.</p>
 <h2>Cara mengaktifkan HTTPS di Apache</h2>
 <p>1. Update Debian</p>
-<p><code>apt-get update</code>
+<p><Li><code>apt-get update</code></li></p>
 <p>2. Instal server Apache dan paket yang diperlukan.</p>
 <p><code>apt-get install apache2 openssl</code></p>
 <p>3. Aktifkan modul Apache bernama: Mod_ssl.</p>
