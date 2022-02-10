@@ -4,7 +4,7 @@
 <p>1. Update Debian</p>
 <p><Li><code>apt-get update</code></li></p>
 <p>2. Instal server Apache dan paket yang diperlukan.</p>
-<p><code>apt-get install apache2 openssl</code></p>
+<p><Li><code>apt-get install apache2 openssl</code></Li></p>
 <p>3. Aktifkan modul Apache bernama: Mod_ssl.</p>
 <p><code>a2enmod ssl</code></p>
 <p>4. Aktifkan modul Apache bernama: Mod_rewrite.</p>
